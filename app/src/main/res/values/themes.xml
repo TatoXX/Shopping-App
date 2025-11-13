@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.ShoppingApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:statusBarColor">@color/light_gray</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="Theme.ShoppingApp" parent="Base.Theme.ShoppingApp" />
+</resources>
